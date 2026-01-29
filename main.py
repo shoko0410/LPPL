@@ -14,7 +14,8 @@ def main():
         'Nikkei 225': '^N225',
         'TOPIX 100 (Proxy: TOPIX ETF)': '1306.T', # Using 1306.T (Nomura TOPIX ETF) as ^TPX is unreliable
         'KOSPI': '^KS11',
-        'KOSDAQ': '^KQ11'
+        'KOSDAQ': '^KQ11',
+        'Gold': 'GC=F'
     }
 
     # Parse CLI arguments
